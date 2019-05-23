@@ -18,9 +18,14 @@ public class HSServer {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        try(ServerSocket serversocket = new ServerSocket(5000)){
-        } catch (IOException e) {
+        try(ServerSocket serversocket = new ServerSocket(5000))
+        {
+            
+        } 
+        catch (IOException e) 
+        {
             e.printStackTrace();
+            
         }
     }
     
